@@ -30,7 +30,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="/blog">PROJECTS</a></li>
                     <li><a href="#">INTEREST</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
@@ -38,9 +38,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
     <div class="carousel slide" data-ride="carousel" id="slideshow" data-interval="2500" data-pause="false"
-         data-wrap="true" style="margin-bottom: 30px;">
+         data-wrap="true" style="margin-bottom: 30px; margin-top: -21px">
 
 
         <ol class="carousel-indicators" style="padding-bottom: 10px;">
@@ -60,7 +59,7 @@
             </div>
 
             <div class="item">
-                <img src="{% static 'images/GoT.jpg' %}">
+                <img src="{% static 'images/GoT.png' %}">
             </div>
 
             <div class="item">
@@ -85,7 +84,6 @@
         </div>
 
     </div>
-</div>
 <div class="container">
     {% block content %}
     {% endblock %}
